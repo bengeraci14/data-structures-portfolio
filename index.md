@@ -1,4 +1,7 @@
 # Bennet Geraci
+social_links:
+  github: https://github.com/bengeraci14
+  linkedin: https://linkedin.com/in/ben-geraci
 Sports Analytics and Communications Student  
 UNC Charlotte
 I live in Wilmington and am interested in a career in sports
