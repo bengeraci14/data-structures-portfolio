@@ -5,8 +5,8 @@ UNC Charlotte
 ## Interested in researching and studying Sports Analytics as a career
 I live in Wilmington, NC and plan on constructing predictive models in order to predict sports outcomes
 ---
-- [Linkedin](https://linkedin.com/in/ben-geraci)
-- [Github](https://github.com/bengeraci14)
+- [My Linkedin](https://linkedin.com/in/ben-geraci)
+- [My Github](https://github.com/bengeraci14)
 ## Portfolio
 - [Blog](blog.md)
 - [Projects](projects.md)
