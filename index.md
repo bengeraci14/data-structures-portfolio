@@ -1,14 +1,13 @@
 # Bennet Geraci
-Sports Analytics and Communications Student  
+Sports Analytics and Communications Student
 UNC Charlotte
-I live in Wilmington and am interested in a career in sports
-Welcome to my Data Science Studio portfolio.
-This website will document my learning and projects throughout the semester.
-github: https://github.com/bengeraci14
-linkedin: https://linkedin.com/in/ben-geraci
 ---
- Portfolio
-Blog: blog.md
-Projects: projects.md
+## Interested in researching and studying Sports Analytics as a career
+I live in Wilmington, NC and plan on constructing predictive models in order to predict sports outcomes
+---
+## Portfolio
+- [Blog](blog.md)
+- [Projects](projects.md)
+
 
 
