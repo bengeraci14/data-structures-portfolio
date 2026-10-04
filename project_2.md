@@ -82,4 +82,4 @@ The defensive metrics were notably weakly measured and could have been added upo
 ## Code and AI Transparency
 Claude AI was used in order to ensure that the code was as concise and efficient as it could be.
 
-Link to Code  [Code] (mlb_win_predictor.ipynb)
+Link to Code  [Code](mlb_win_predictor.ipynb)
