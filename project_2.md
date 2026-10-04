@@ -24,7 +24,7 @@ RMSE, MAE and Rsquared, since RMSE/MAE report error directly in wins and Rsquare
               Ridge	5.387	4.307	0.825
       Random Forest	5.845	4.534	0.794
 
-
+<img width="1184" height="484" alt="Image" src="https://github.com/user-attachments/assets/fb00d72f-6909-4b46-a52e-760998c418d7" />
 The Ridge model slightly outperforms the Random Forest model in terms of RMSE and the Rsquared value.
 
 ## Model Interpretation and Insights
