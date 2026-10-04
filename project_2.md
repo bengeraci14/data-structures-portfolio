@@ -29,3 +29,21 @@ The Ridge model slightly outperforms the Random Forest model in terms of RMSE an
 
 ## Model Interpretation and Insights
 Ridge coefficients show each feature's direction and amount of association with total team wins, Random Forest importances show which features it relies on most.
+
+
+            
+            Ridge |coef|	RF impurity	RF permutation	group
+            ERA	1	2	1	Pitching
+            OBP	2	3	4	Offense
+            HR_pg	3	5	5	Offense
+            SLG	4	4	3	Offense
+            FP	5	10	9	Defense
+            BB9	6	7	7	Pitching
+            SO_pg	7	11	11	Offense
+            HRA9	8	8	8	Pitching
+            SB_pg	9	12	12	Offense
+            BB_pg	10	6	6	Offense
+            WHIP	11	1	2	Pitching
+            DP_pg	12	13	13	Defense
+            K9	13	9	10	Pitching
+
