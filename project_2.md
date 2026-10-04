@@ -18,6 +18,7 @@ The baseline for every team is 81 wins every year since the average requires no 
 
 <img width="1184" height="384" alt="image" src="https://github.com/user-attachments/assets/fb6cce1a-3602-4238-be5c-21ed60c3f70c" />
 
+The distribution of the data is roughly bell shaped with the majority of the data clustering around the baseline, 81 wins. The typical spread between the best and worst teams is around 100 wins for the best teams and 65-70 wins for the worst teams in a given season.
 
 ## Model Evaluation and Selection
 RMSE, MAE and Rsquared, since RMSE/MAE report error directly in wins and Rsquared shows explained variance. Both models were compared against the 81-win baseline and each other on test seasons. 
@@ -29,6 +30,26 @@ RMSE, MAE and Rsquared, since RMSE/MAE report error directly in wins and Rsquare
 
 <img width="1184" height="484" alt="Image" src="https://github.com/user-attachments/assets/fb00d72f-6909-4b46-a52e-760998c418d7" />
 The Ridge model slightly outperforms the Random Forest model in terms of RMSE and the Rsquared value.
+
+<img width="1009" height="784" alt="image" src="https://github.com/user-attachments/assets/f0131446-55bf-4716-84c9-fbbb4876de7b" />
+
+            Correlation with wins:
+            RunDiff    0.943
+            ERA       -0.674
+            WHIP      -0.631
+            OBP        0.517
+            SLG        0.516
+            BB9       -0.479
+            BB_pg      0.464
+            HR_pg      0.429
+            HRA9      -0.404
+            FP         0.334
+            K9         0.283
+            DP_pg     -0.208
+            SO_pg     -0.118
+            SB_pg      0.059
+
+The most prominent win predictors according to the model and this table are ERA, WHIP and BB/9 for pitching and OBP, SLG, and HR/g for hitting. It is notable that the pitching values do outweigh the batting, suggesting that pitching could be more important in determining team wins.
 
 ## Model Interpretation and Insights
 Ridge coefficients show each feature's direction and amount of association with total team wins, Random Forest importances show which features it relies on most.
@@ -52,4 +73,12 @@ Ridge coefficients show each feature's direction and amount of association with 
             WHIP	11	1	2	Pitching
             DP_pg	12	13	13	Defense
             K9	13	9	10	Pitching
+
+The top features, as predicted and previously seen from other models are ERA/WHIP for pitching and OBP/SLG for batting. There is an agreement between the models which shows association in the data, which does not always mean causation. However it is clear to see that prioritizing these stats and ensuring a team can excel at keeping runners off base and doing the opposite on offense will help in achieving a successful season.
+
+## Limitations, Ethics and Reflection
+The defensive metrics were notably weakly measured and could have been added upon, however these numbers ranked very poorly in all of the models used. Injuries, trades, payrolls were all excluded and not factored in to determining a teams success. Features that had strong correlation (OBP/BB, SLG/HR/g, ERA/WHIP) makes it hard to determine which specific feature had more importance. Despite limiting the data to 1998-present, the game has and continues to chnage rapidly, and what mattered 5 years ago, may have a lot less importance today.
+
+## Code and AI Transparency
+Claude AI was used in order to ensure that the code was as concise and efficient as it could be.
 
