@@ -16,6 +16,9 @@ There were no duplicates. The features included in the project were six offense,
 ## Baseline and Model Development
 The baseline for every team is 81 wins every year since the average requires no team data. Two models were trained: Ridge regression and Random Forest. Ridge's alpha was tuned via cross-validation on training data only. Random Forest settings were set to defaults rather than extensively tuned. Both used the same key features listed earlier.
 
+<img width="1184" height="384" alt="image" src="https://github.com/user-attachments/assets/fb6cce1a-3602-4238-be5c-21ed60c3f70c" />
+
+
 ## Model Evaluation and Selection
 RMSE, MAE and Rsquared, since RMSE/MAE report error directly in wins and Rsquared shows explained variance. Both models were compared against the 81-win baseline and each other on test seasons. 
 
