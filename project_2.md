@@ -30,7 +30,7 @@ The Ridge model slightly outperforms the Random Forest model in terms of RMSE an
 ## Model Interpretation and Insights
 Ridge coefficients show each feature's direction and amount of association with total team wins, Random Forest importances show which features it relies on most.
 
-
+<img width="783" height="584" alt="Image" src="https://github.com/user-attachments/assets/4eec04e8-f2c7-4ed9-b6be-995003e0b535" />
 
 <img width="1284" height="584" alt="Image" src="https://github.com/user-attachments/assets/fe5906f2-3ced-43ba-abd8-2c8393e0d78d" />
 
